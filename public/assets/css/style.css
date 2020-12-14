@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    padding:2vh 8%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.132);
+}
+
+nav a {
+    color:#000000;
+    font-weight: 400;
+}
+
+nav ul {
+    display:flex;
+} 
+
+nav li {
+padding-left: 5rem;
+}
+
+.greenBtn {
+    background: #01996D;
+    padding:.6rem 2rem;
+    border-radius:5px;
+    color:white;
+}
+
+.hero {
+    min-height: 92.5vh;
+    background: url(../img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero article {
+    width:35%;
+    padding: 15vh 10%;
+}
+
+.hero h2 {
+    color: #01996D;
+    font-size: 3.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:5vh;
+}
+
+.hero p {
+    width:65%;
+    margin-bottom:5vh;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+/* _____________Home Page________________  */
+
+.howSec {
+    padding:5vh 10%;
+}
+
+.howSec h2 {
+    width:70%;
+    color: #01996D;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.8rem;
+}
+
+.howSec div {
+    margin-top:2vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+}
+
+.howSec p {
+    width:90%;
+    font-weight: 300;
+    line-height: 1.4rem;
+}
+
+.oneTwoThree {
+    margin:0 8% 10vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+}
+
+.oneTwoThree article:nth-of-type(2) {
+    margin-top: 23vh;
+}
+
+.oneTwoThree article:nth-of-type(3) {
+    margin-top: 10vh;
+}
+
+.oneTwoThree h3 {
+    font-family: georgia;
+    font-size: 6.5rem;
+    font-weight: 400;
+    color: #01996e3c;
+}
+
+.oneTwoThree h2 {
+    margin-top:-5.5vh;
+    margin-left:4rem;
+    margin-bottom:5vh;
+    font-family: georgia;
+    font-size: 1.5rem;
+}
+
+.oneTwoThree p {
+    font-weight: 300;
+    padding: 0 1.5rem;
+    margin-bottom:5vh;
+    line-height: 1.4rem;
+}
+
+
+/* __________Solutions_______________ */
+.solutions{
+    margin: 8vh 8%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+}
+
+.solutions img {
+    width:100%;
+}
+
+.solutions div {
+margin-top:10vh;
+}
+
+.solutions h2{
+    color: #01996D;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.8rem;
+}
+
+.solutions p {
+    margin: 2vh auto 4vh;
+}
+
+
+/* _________Community ____________ */
+
+#com {
+    margin: 10vh 8%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+}
+
+#com article:nth-of-type(2) {
+    width:70%;
+}
+
+#com h2 {
+    margin-top:2vh;
+    color: #01996D;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.8rem; 
+}
+
+#com p {
+    margin: 2vh auto 4vh;
+    font-weight: 300;
+    line-height: 1.4rem;
+}
+
+
+.communityImg {
+    min-height: 50vh;
+    background: url(../img/community.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.communityImg img{
+    position: absolute;
+    width:30%;
+    bottom:-3rem;
+    left:3rem;
+}
+
+/* ______________ 404 Page ____________ */
+
+#errorPage {
+    margin: 20vh 20%;
+    min-height: 80vh;
+    background: url(../img/404.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+/* _______Footer________  */
+
+footer {
+
+    padding:7vh 8%;
+    background: #245852;
+}
+
+footer a{
+    color:#fff;
+}
+
+footer img{
+ width: 100px;
+}
+
+footer ul {
+    min-height: 25vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
